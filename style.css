@@ -1,0 +1,103 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(left, #ffffff, #f098f0);
+    background: -moz-linear-gradient(left, #ffffff, #f098f0);
+    background: -ms-linear-gradient(left, #ffffff, #f098f0);
+    background: -o-linear-gradient(left, #ffffff, #f098f0);
+    background: linear-gradient(to right, #ffffff, #f098f0);
+    
+  }
+  
+  table{
+    border:2px solid rgb(224, 219, 219);
+    width: 100%;
+   margin-bottom : .5em;
+   table-layout: fixed;
+   text-align: center;
+  
+    
+    
+  }
+  
+  tr, td, th{
+    border:2px solid black;
+  }
+
+  img{
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center;
+    border-radius: 10%;
+    
+    
+  }
+  th{
+    background-color: pink;
+  }
+
+h1{
+    align-items: center;
+    text-align: center;
+    font-family:cursive;
+    font-size: 80px;
+    color: gray;
+}
+
+div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+
+}
+h2{
+    color: rgb(148, 3, 112);
+    text-align: center;
+}
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+nav ul li{
+    list-style:none;
+    font-size: 40px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-left: 48px;
+    font-size: 21px;
+    margin-left: 6px;
+    padding: 6px 10px;
+
+
+}
+nav ul li a:hover{
+    background-color: rgb(221, 128, 168)
+    
+
+}
+
+header{
+    background-color:rgb(194, 96, 138);
+    border-radius: 5%;
+    size-adjust: auto;
+    font-family: fantasy;
+    
+    
+}
+header.container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 1100px;
+
+
+}
